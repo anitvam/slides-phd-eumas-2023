@@ -1,10 +1,8 @@
-# Template for Hugo+Bootstrap+Reveal.js slides
-
-Custom template that integrates Bootstrap inside `dzello/reveal-hugo.git` template.
+# PhD Day presentation slides for EUMAS 2023
 
 ### Download
 ```bash
-git clone --recursive git@github.com:anitvam/slides-template-hugo-reveal.git
+git clone --recursive git@github.com:anitvam/slides-phd-eumas-2023.git
 ```
 
 ### Update
@@ -21,4 +19,4 @@ hugo
 ```
 hugo server
 ```
-and then available at `http://localhost:1313/slides-template-hugo-reveal/#/`.
+and then available at `http://localhost:1313/slides-phd-eumas-2023/#/`.

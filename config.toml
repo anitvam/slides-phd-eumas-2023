@@ -1,4 +1,4 @@
-baseURL = "https://anitvam.github.io/slides-template-hugo-reveal/"
+baseURL = "https://anitvam.github.io/slides-phd-eumas-2023/"
 languageCode = "en-us"
 title = "A Hugo theme for creating Reveal.js presentations"
 disableKinds = ["sitemap", "RSS"]
@@ -30,7 +30,7 @@ isHTML = true
 
 [params.reveal_hugo]
 history = true
-theme = "league"
+theme = "moon"
 highlight_theme = "solarized-dark"
 slide_number = true
 transition = "slide"
