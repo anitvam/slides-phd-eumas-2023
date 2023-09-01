@@ -4,22 +4,15 @@ weight = 10
 
 # We searched for popular AOP languages
 
-* {{% fragment %}}
-**PYPL** PopularitY of Programming Language [<i class="fa-solid fa-arrow-up-right-from-square fa-xs"></i>](https://pypl.github.io/PYPL.html)
-{{% /fragment %}}
+* **PYPL** PopularitY of Programming Language [<i class="fa-solid fa-arrow-up-right-from-square fa-xs"></i>](https://pypl.github.io/PYPL.html)
 
-* {{% fragment %}}
-**TIOBE** [<i class="fa-solid fa-arrow-up-right-from-square fa-xs"></i>](https://www.tiobe.com/tiobe-index/)
-{{% /fragment %}}
+* **TIOBE** [<i class="fa-solid fa-arrow-up-right-from-square fa-xs"></i>](https://www.tiobe.com/tiobe-index/)
 
-* {{% fragment %}}
-**Stackoverflow developer survey** [<i class="fa-solid fa-arrow-up-right-from-square fa-xs"></i>](https://survey.stackoverflow.co/2023/#most-popular-technologies-language-prof)
-{{% /fragment %}}
+* **Stackoverflow developer survey** [<i class="fa-solid fa-arrow-up-right-from-square fa-xs"></i>](https://survey.stackoverflow.co/2023/#most-popular-technologies-language-prof)
 
 <br>
 <br>
 <br>
-
 
 {{% fragment %}}
 
@@ -41,59 +34,41 @@ We identified 4 possible reasons
 
 {{< multicol >}}{{< col >}}
 
-{{< fragment >}}
 <h4> AOP Libraries </h4>
 <br>
-{{< /fragment >}}
 
-{{< fragment >}}
 <div>
 <i class="fa-solid fa-check" style="color: green;"></i>
 Gentle learning curve
 </div>
-{{< /fragment >}}
 
-{{< fragment >}}
 <div>
 <i class="fa-solid fa-check" style="color: green;"></i>
 Large community
 </div>
-{{< /fragment >}}
 
-{{< fragment >}}
 <div>
 <i class="fa-solid fa-xmark" style="color: red;"></i>
 Poor ergonomicity
 </div>
-{{< /fragment >}}
 
 {{< /col >}}{{< col >}}
 
-{{< fragment >}}
 <h4> Custom Languages </h4>
 <br>
-{{< /fragment >}}
 
-{{< fragment >}}
-<div>
-<i class="fa-solid fa-check" style="color: green;"></i>
+{{< tick >}}
 High ergonomicity
-</div>
-{{< /fragment >}}
+{{< /tick >}}
 
-{{< fragment >}}
-<div>
-<i class="fa-solid fa-xmark" style="color: red;"></i>
+{{< cross >}}
 Steep learning curve
-</div>
-{{< /fragment >}}
+{{< /cross >}}
 
-{{< fragment >}}
 <div>
 <i class="fa-solid fa-xmark" style="color: red;"></i>
 Small community
 </div>
-{{< /fragment >}}
 
 {{< /col >}}{{< /multicol >}}
 
@@ -122,25 +97,17 @@ due to the custom syntax
 
 {{< multicol >}}{{< col >}}
 
-{{< fragment >}}
 <h4> AOP Libraries </h4>
 <br>
-{{< /fragment >}}
 
-{{% fragment %}}
 Come with a large set of well-known **development tools** and **utilities libraries** built for the mainstream language in which they rely on
-{{% /fragment %}}
 
 {{< /col >}}{{< col >}}
 
-{{< fragment >}}
 <h4> Custom Languages </h4>
 <br>
-{{< /fragment >}}
 
-{{% fragment %}}
 Needs to **implement** all the tooling required to support programmers, which is a time-valuable task
-{{% /fragment %}}
 
 {{< /col >}}{{< /multicol >}}
 
@@ -149,36 +116,24 @@ Needs to **implement** all the tooling required to support programmers, which is
 # 3. Middleware/Runtime requirements
 <br>
 
-{{% fragment %}}
-
 The majority of BDI AOP libraries rely on specific runtimes, e.g. **JVM**, **Python interpreter**, ...
 
-{{% /fragment %}}
-
 <br> 
-
-{{% fragment %}}
 
 But BDI AOP systems could be designed to run on a large variety of devices, 
 <br>
 from **web** to **wearable**-oriented applications 
-
-{{% /fragment %}}
 
 ---
 
 # 4. Concurrency model
 <br>
 
-{{% fragment %}}
 Current BDI AOP languages offer limited configuration over the **execution** of an agent system.
-{{% /fragment %}}
 
 <br>
 
-{{% fragment %}}
 We believe that a BDI model definition should be completely agnostic of the underlying concurrency model, which should be **pluggable**.
-{{% /fragment %}}
 
 ---
 
@@ -187,15 +142,11 @@ We believe that a BDI model definition should be completely agnostic of the unde
 
 Internal DSL implemented in Kotlin
 
-* {{< frag c="Native tools maintained by the community" >}}
+* Native tools maintained by the community
+* Multi-paradigm support
+* Gentler learning curve, leveraging a mainstream language
+* Good ergonomy
 
-* {{< frag c="Multi-paradigm support" >}}
-
-* {{< frag c="Gentler learning curve, leveraging a mainstream language" >}}
-
-* {{< frag c="Good ergonomy" >}}
-
-<br>
 <br>
 <br>
 
@@ -205,30 +156,3 @@ Internal DSL implemented in Kotlin
 [github.com/jakta-bdi/jakta-examples](https://github.com/jakta-bdi/jakta-examples)
 
 {{% /fragment %}}
-
----
-
-# is multicol working ?
-
-{{< multicol >}}{{< col >}}
-First column
-{{< /col >}}{{< col >}}
-Second column
-{{< /col >}}{{< /multicol >}}
-
-<div class="container">
-  <div class="row">
-    <div class="col">
-      Column
-    </div>
-    <div class="col">
-      Column
-    </div>
-    <div class="col">
-      Columns
-    </div>
-        <div class="col">
-      Column
-    </div>
-  </div>
-</div>

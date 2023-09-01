@@ -20,3 +20,4 @@ hugo
 hugo server
 ```
 and then available at `http://localhost:1313/slides-phd-eumas-2023/#/`.
+
