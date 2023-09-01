@@ -37,8 +37,67 @@ We identified 4 possible reasons
 
 # 1. Learning curve vs ergonomics
 <br>
+<br>
 
-{{% fragment %}}
+{{< multicol >}}{{< col >}}
+
+{{< fragment >}}
+<h4> AOP Libraries </h4>
+<br>
+{{< /fragment >}}
+
+{{< fragment >}}
+<div>
+<i class="fa-solid fa-check" style="color: green;"></i>
+Gentle learning curve
+</div>
+{{< /fragment >}}
+
+{{< fragment >}}
+<div>
+<i class="fa-solid fa-check" style="color: green;"></i>
+Large community
+</div>
+{{< /fragment >}}
+
+{{< fragment >}}
+<div>
+<i class="fa-solid fa-xmark" style="color: red;"></i>
+Poor ergonomicity
+</div>
+{{< /fragment >}}
+
+{{< /col >}}{{< col >}}
+
+{{< fragment >}}
+<h4> Custom Languages </h4>
+<br>
+{{< /fragment >}}
+
+{{< fragment >}}
+<div>
+<i class="fa-solid fa-check" style="color: green;"></i>
+High ergonomicity
+</div>
+{{< /fragment >}}
+
+{{< fragment >}}
+<div>
+<i class="fa-solid fa-xmark" style="color: red;"></i>
+Steep learning curve
+</div>
+{{< /fragment >}}
+
+{{< fragment >}}
+<div>
+<i class="fa-solid fa-xmark" style="color: red;"></i>
+Small community
+</div>
+{{< /fragment >}}
+
+{{< /col >}}{{< /multicol >}}
+
+<!-- {{% fragment %}}
 **AOP libraries** provide low ergonomics:
 <br>
 non-experienced users find difficulties to describe AOP entities
@@ -52,26 +111,38 @@ vs
 **Custom Languages** have a steeper learning curve,
 <br>
 due to the custom syntax
-{{% /fragment %}}
+{{% /fragment %}} -->
 
 ---
 
 # 2. Tooling
+#### (IDE, code suggestion, syntax highlighter, ...)
+<br>
 <br>
 
-{{% fragment %}}
+{{< multicol >}}{{< col >}}
 
-Programmers leverage a large set of well-known **development tools** (IDEs, code suggestions, syntax highlighters) and **libraries** daily
-
-{{% /fragment %}}
-
+{{< fragment >}}
+<h4> AOP Libraries </h4>
 <br>
+{{< /fragment >}}
 
 {{% fragment %}}
-
-Custom languages need to **implement** all the tooling required to support AOP programming, which is a time-valuable task
-
+Come with a large set of well-known **development tools** and **utilities libraries** built for the mainstream language in which they rely on
 {{% /fragment %}}
+
+{{< /col >}}{{< col >}}
+
+{{< fragment >}}
+<h4> Custom Languages </h4>
+<br>
+{{< /fragment >}}
+
+{{% fragment %}}
+Needs to **implement** all the tooling required to support programmers, which is a time-valuable task
+{{% /fragment %}}
+
+{{< /col >}}{{< /multicol >}}
 
 ---
 
@@ -80,7 +151,7 @@ Custom languages need to **implement** all the tooling required to support AOP p
 
 {{% fragment %}}
 
-The majority of BDI AOP technologies rely on specific runtimes, e.g. **JVM**, **Python interpreter**, ...
+The majority of BDI AOP libraries rely on specific runtimes, e.g. **JVM**, **Python interpreter**, ...
 
 {{% /fragment %}}
 
@@ -134,3 +205,30 @@ Internal DSL implemented in Kotlin
 [github.com/jakta-bdi/jakta-examples](https://github.com/jakta-bdi/jakta-examples)
 
 {{% /fragment %}}
+
+---
+
+# is multicol working ?
+
+{{< multicol >}}{{< col >}}
+First column
+{{< /col >}}{{< col >}}
+Second column
+{{< /col >}}{{< /multicol >}}
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      Column
+    </div>
+    <div class="col">
+      Column
+    </div>
+    <div class="col">
+      Columns
+    </div>
+        <div class="col">
+      Column
+    </div>
+  </div>
+</div>
