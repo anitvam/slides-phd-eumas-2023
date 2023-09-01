@@ -35,28 +35,13 @@
     <section><h1 id="we-searched-for-popular-aop-languages">We searched for popular AOP languages</h1>
 <ul>
 <li>
-
-
-<span class='fragment ' ><p><strong>PYPL</strong> PopularitY of Programming Language <a href="https://pypl.github.io/PYPL.html"><i class="fa-solid fa-arrow-up-right-from-square fa-xs"></i></a></p>
-</span>
-
-
+<p><strong>PYPL</strong> PopularitY of Programming Language <a href="https://pypl.github.io/PYPL.html"><i class="fa-solid fa-arrow-up-right-from-square fa-xs"></i></a></p>
 </li>
 <li>
-
-
-<span class='fragment ' ><p><strong>TIOBE</strong> <a href="https://www.tiobe.com/tiobe-index/"><i class="fa-solid fa-arrow-up-right-from-square fa-xs"></i></a></p>
-</span>
-
-
+<p><strong>TIOBE</strong> <a href="https://www.tiobe.com/tiobe-index/"><i class="fa-solid fa-arrow-up-right-from-square fa-xs"></i></a></p>
 </li>
 <li>
-
-
-<span class='fragment ' ><p><strong>Stackoverflow developer survey</strong> <a href="https://survey.stackoverflow.co/2023/#most-popular-technologies-language-prof"><i class="fa-solid fa-arrow-up-right-from-square fa-xs"></i></a></p>
-</span>
-
-
+<p><strong>Stackoverflow developer survey</strong> <a href="https://survey.stackoverflow.co/2023/#most-popular-technologies-language-prof"><i class="fa-solid fa-arrow-up-right-from-square fa-xs"></i></a></p>
 </li>
 </ul>
 <br>
@@ -81,92 +66,48 @@
 <div class='row text-center '>
 <div class='col text-center '>
 
-
-
-<span class='fragment ' >
 <h4> AOP Libraries </h4>
 <br>
-</span>
 
-
-
-
-
-<span class='fragment ' >
 <div>
 <i class="fa-solid fa-check" style="color: green;"></i>
 Gentle learning curve
 </div>
-</span>
 
-
-
-
-
-<span class='fragment ' >
 <div>
 <i class="fa-solid fa-check" style="color: green;"></i>
 Large community
 </div>
-</span>
 
-
-
-
-
-<span class='fragment ' >
 <div>
 <i class="fa-solid fa-xmark" style="color: red;"></i>
 Poor ergonomicity
 </div>
-</span>
-
-
 
 </div>
 <div class='col text-center '>
 
-
-
-<span class='fragment ' >
 <h4> Custom Languages </h4>
 <br>
-</span>
 
-
-
-
-
-<span class='fragment ' >
 <div>
-<i class="fa-solid fa-check" style="color: green;"></i>
+    <i class="fa-solid fa-check" style="color: green;"></i>
+    
 High ergonomicity
+
 </div>
-</span>
 
-
-
-
-
-<span class='fragment ' >
 <div>
-<i class="fa-solid fa-xmark" style="color: red;"></i>
+    <i class="fa-solid fa-xmark" style="color: red;"></i>
+    
 Steep learning curve
+
 </div>
-</span>
 
-
-
-
-
-<span class='fragment ' >
 <div>
 <i class="fa-solid fa-xmark" style="color: red;"></i>
 Small community
 </div>
-</span>
-
-
 
 </div></div>
 </div>
@@ -205,108 +146,45 @@ due to the custom syntax</p>
 <div class='row text-center '>
 <div class='col text-center '>
 
-
-
-<span class='fragment ' >
 <h4> AOP Libraries </h4>
 <br>
-</span>
 
-
-
-
-
-<span class='fragment ' ><p>Come with a large set of well-known <strong>development tools</strong> and <strong>utilities libraries</strong> built for the mainstream language in which they rely on</p>
-</span>
-
-
+Come with a large set of well-known **development tools** and **utilities libraries** built for the mainstream language in which they rely on
 
 </div>
 <div class='col text-center '>
 
-
-
-<span class='fragment ' >
 <h4> Custom Languages </h4>
 <br>
-</span>
 
-
-
-
-
-<span class='fragment ' ><p>Needs to <strong>implement</strong> all the tooling required to support programmers, which is a time-valuable task</p>
-</span>
-
-
+Needs to **implement** all the tooling required to support programmers, which is a time-valuable task
 
 </div></div>
 </div>
 </section><section>
 <h1 id="3-middlewareruntime-requirements">3. Middleware/Runtime requirements</h1>
 <br>
-
-
-<span class='fragment ' ><p>The majority of BDI AOP libraries rely on specific runtimes, e.g. <strong>JVM</strong>, <strong>Python interpreter</strong>, &hellip;</p>
-</span>
-
-
+<p>The majority of BDI AOP libraries rely on specific runtimes, e.g. <strong>JVM</strong>, <strong>Python interpreter</strong>, &hellip;</p>
 <br> 
-
-
-<span class='fragment ' ><p>But BDI AOP systems could be designed to run on a large variety of devices,
+<p>But BDI AOP systems could be designed to run on a large variety of devices,
 <br>
 from <strong>web</strong> to <strong>wearable</strong>-oriented applications</p>
-</span>
-
-
 </section><section>
 <h1 id="4-concurrency-model">4. Concurrency model</h1>
 <br>
-
-
-<span class='fragment ' ><p>Current BDI AOP languages offer limited configuration over the <strong>execution</strong> of an agent system.</p>
-</span>
-
-
+<p>Current BDI AOP languages offer limited configuration over the <strong>execution</strong> of an agent system.</p>
 <br>
-
-
-<span class='fragment ' ><p>We believe that a BDI model definition should be completely agnostic of the underlying concurrency model, which should be <strong>pluggable</strong>.</p>
-</span>
-
-
+<p>We believe that a BDI model definition should be completely agnostic of the underlying concurrency model, which should be <strong>pluggable</strong>.</p>
 </section><section>
 <h1 id="jakta">Jakta</h1>
 <h2 id="ujauson-like-ukuoutulin-uaugents"><u>Ja</u>son-like <u>K</u>o<u>t</u>lin <u>A</u>gents</h2>
 <p>Internal DSL implemented in Kotlin</p>
 <ul>
-<li>
-<span class='fragment '
-  >
-  Native tools maintained by the community
-</span>
-</li>
-<li>
-<span class='fragment '
-  >
-  Multi-paradigm support
-</span>
-</li>
-<li>
-<span class='fragment '
-  >
-  Gentler learning curve, leveraging a mainstream language
-</span>
-</li>
-<li>
-<span class='fragment '
-  >
-  Good ergonomy
-</span>
-</li>
+<li>Native tools maintained by the community</li>
+<li>Multi-paradigm support</li>
+<li>Gentler learning curve, leveraging a mainstream language</li>
+<li>Good ergonomy</li>
 </ul>
-<br>
 <br>
 <br>
 
@@ -317,35 +195,7 @@ from <strong>web</strong> to <strong>wearable</strong>-oriented applications</p>
 </span>
 
 
-</section><section>
-<h1 id="is-multicol-working-">is multicol working ?</h1>
-
-
-<div class="container w-100 m-0 p-0">
-<div class='row text-center '>
-<div class='col text-center '>
-First column
-</div>
-<div class='col text-center '>
-Second column
-</div></div>
-</div>
-<div class="container">
-  <div class="row">
-    <div class="col">
-      Column
-    </div>
-    <div class="col">
-      Column
-    </div>
-    <div class="col">
-      Columns
-    </div>
-        <div class="col">
-      Column
-    </div>
-  </div>
-</div></section>
+</section>
 
 </div>
       
