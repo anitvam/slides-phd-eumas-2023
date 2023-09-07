@@ -3,14 +3,14 @@
   <head>
 	<meta name="generator" content="Hugo 0.118.2">
     <meta charset="utf-8">
-<title>reveal-hugo</title>
+<title>JaKtA</title>
 <meta name="description" content="A Hugo theme for creating Reveal.js presentations">
 <meta name="author" content="Martina Baiardi">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><link rel="stylesheet" href="/slides-phd-eumas-2023/reveal-js/dist/reset.css">
 <link rel="stylesheet" href="/slides-phd-eumas-2023/reveal-js/dist/reveal.css">
-  <link rel="stylesheet" href="/slides-phd-eumas-2023/css/custom-theme.min.29cdb612035326daec50dba1ecd3f09fe49efe02bdc2a67400c7c852b9dac938.css" id="theme"><link rel="stylesheet" href="/slides-phd-eumas-2023/highlight-js/agate.min.css">
+  <link rel="stylesheet" href="/slides-phd-eumas-2023/css/custom-theme.min.2068db0a910a762d09771a997498305ae40ccf0e4e6661af0522630517f6f9b2.css" id="theme"><link rel="stylesheet" href="/slides-phd-eumas-2023/highlight-js/solarized-dark.min.css">
 <link rel="stylesheet" href="https://gitcdn.link/repo/DanySK/css-blur-animation/master/blur.css">
 <link href='https://fonts.googleapis.com/css?family=Roboto Mono' rel='stylesheet'>
 <link href='https://fonts.googleapis.com/css?family=Oxygen Mono' rel='stylesheet'>
@@ -32,7 +32,7 @@
 
   
 
-    <section><h1 id="we-searched-for-popular-aop-languages">We searched for popular AOP languages</h1>
+    <section><h2 id="we-searched-for-popular-bdi-aop-languages">We searched for popular BDI AOP languages</h2>
 <ul>
 <li>
 <p><strong>PYPL</strong> PopularitY of Programming Language <a href="https://pypl.github.io/PYPL.html"><i class="fa-solid fa-arrow-up-right-from-square fa-xs"></i></a></p>
@@ -49,7 +49,7 @@
 <br>
 
 
-<span class='fragment ' ><h1 id="no-one-at-all-129335">No one at all 🤷</h1>
+<span class='fragment ' ><h1 id="no-one-i-classfa-regular-fa-face-frowni">No one <i class="fa-regular fa-face-frown"></i></h1>
 </span>
 
 
@@ -57,7 +57,7 @@
 <h1 id="why">Why?</h1>
 <p>We identified 4 possible reasons</p>
 </section><section>
-<h1 id="1-learning-curve-vs-ergonomics">1. Learning curve vs ergonomics</h1>
+<h2 id="1-learning-curve-vs-ergonomics">1. Learning curve vs ergonomics</h2>
 <br>
 <br>
 
@@ -136,33 +136,34 @@ due to the custom syntax</p>
 
  -->
 </section><section>
-<h1 id="2-tooling">2. Tooling</h1>
+<h2 id="2-tooling">2. Tooling</h2>
 <h4 id="ide-code-suggestion-syntax-highlighter-">(IDE, code suggestion, syntax highlighter, &hellip;)</h4>
 <br>
 <br>
 
 
 <div class="container w-100 m-0 p-0">
-<div class='row text-center '>
-<div class='col text-center '>
-
-<h4> AOP Libraries </h4>
+<div class='row text-center '><div class='col text-center '><h4> AOP Libraries </h4>
 <br>
-
-Come with a large set of well-known **development tools** and **utilities libraries** built for the mainstream language in which they rely on
-
+<ul>
+<li>rely on existing <strong>development tools</strong></li>
+<li>can be integrated with existing <strong>libraries</strong></li>
+</ul>
 </div>
-<div class='col text-center '>
-
-<h4> Custom Languages </h4>
+<div class='col text-center '><h4> Custom Languages </h4>
 <br>
-
-Needs to **implement** all the tooling required to support programmers, which is a time-valuable task
-
+<ul>
+<li>require <strong>novel tooling</strong>
+<ul>
+<li>and related <strong>maintenance</strong></li>
+</ul>
+</li>
+<li>require <strong>novel libraries</strong> or <strong>explicit bridges</strong> to other ecosystems</li>
+</ul>
 </div></div>
 </div>
 </section><section>
-<h1 id="3-middlewareruntime-requirements">3. Middleware/Runtime requirements</h1>
+<h2 id="3-middlewareruntime-requirements">3. Middleware/Runtime requirements</h2>
 <br>
 <p>The majority of BDI AOP libraries rely on specific runtimes, e.g. <strong>JVM</strong>, <strong>Python interpreter</strong>, &hellip;</p>
 <br> 
@@ -170,7 +171,7 @@ Needs to **implement** all the tooling required to support programmers, which is
 <br>
 from <strong>web</strong> to <strong>wearable</strong>-oriented applications</p>
 </section><section>
-<h1 id="4-concurrency-model">4. Concurrency model</h1>
+<h2 id="4-concurrency-model">4. Concurrency model</h2>
 <br>
 <p>Current BDI AOP languages offer limited configuration over the <strong>execution</strong> of an agent system.</p>
 <br>
@@ -186,10 +187,9 @@ from <strong>web</strong> to <strong>wearable</strong>-oriented applications</p>
 <li>Good ergonomy</li>
 </ul>
 <br>
-<br>
 
 
-<span class='fragment ' ><figure><img src="images/qr-code.svg" width="20%"/>
+<span class='fragment ' ><figure><img src="images/qr-code.svg" width="15%"/>
 </figure>
 <p><a href="https://github.com/jakta-bdi/jakta-examples">github.com/jakta-bdi/jakta-examples</a></p>
 </span>
@@ -232,8 +232,8 @@ from <strong>web</strong> to <strong>wearable</strong>-oriented applications</p>
   }
 
   var revealHugoDefaults = { center: true, controls: true, history: true, progress: true, transition: "slide" };
-  var revealHugoSiteParams = {"custom_theme":"custom-theme.scss","custom_theme_compile":true,"custom_theme_options":{"enablesourcemap":true,"targetpath":"css/custom-theme.css"},"height":"900","highlight_theme":"solarized-dark","history":true,"slide_number":true,"theme":"moon","transition":"slide","transition_speed":"fast","width":"1440"};
-  var revealHugoPageParams = {"custom_theme":"robot-lung.css","highlight_theme":"agate","margin":0.2,"templates":{"hotpink":{"background":"#FF4081","class":"hotpink"}},"transition":"slide","transition_speed":"fast"};
+  var revealHugoSiteParams = {"custom_theme":"custom-theme.scss","custom_theme_compile":true,"custom_theme_options":{"enablesourcemap":true,"targetpath":"css/custom-theme.css"},"height":"900","highlight_theme":"solarized-dark","history":true,"slide_number":true,"theme":"white","transition":"slide","transition_speed":"fast","width":"1440"};
+  var revealHugoPageParams = {};
 
   var revealHugoPlugins = {
     
