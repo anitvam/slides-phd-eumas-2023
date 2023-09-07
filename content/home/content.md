@@ -2,7 +2,7 @@
 weight = 10
 +++
 
-# We searched for popular AOP languages
+## We searched for popular BDI AOP languages
 
 * **PYPL** PopularitY of Programming Language [<i class="fa-solid fa-arrow-up-right-from-square fa-xs"></i>](https://pypl.github.io/PYPL.html)
 
@@ -16,7 +16,7 @@ weight = 10
 
 {{% fragment %}}
 
-# No one at all &#129335; 
+# No one <i class="fa-regular fa-face-frown"></i>
 
 {{% /fragment %}}
 
@@ -28,7 +28,7 @@ We identified 4 possible reasons
 
 ---
 
-# 1. Learning curve vs ergonomics
+## 1. Learning curve vs ergonomics
 <br>
 <br>
 
@@ -90,30 +90,33 @@ due to the custom syntax
 
 ---
 
-# 2. Tooling
+## 2. Tooling
 #### (IDE, code suggestion, syntax highlighter, ...)
 <br>
 <br>
 
-{{< multicol >}}{{< col >}}
+{{% multicol %}}{{% col %}}
 
 <h4> AOP Libraries </h4>
 <br>
 
-Come with a large set of well-known **development tools** and **utilities libraries** built for the mainstream language in which they rely on
+* rely on existing **development tools**
+* can be integrated with existing **libraries**
 
-{{< /col >}}{{< col >}}
+{{% /col %}}{{% col %}}
 
 <h4> Custom Languages </h4>
 <br>
 
-Needs to **implement** all the tooling required to support programmers, which is a time-valuable task
+* require **novel tooling**
+    * and related **maintenance**
+* require **novel libraries** or **explicit bridges** to other ecosystems
 
 {{< /col >}}{{< /multicol >}}
 
 ---
 
-# 3. Middleware/Runtime requirements
+## 3. Middleware/Runtime requirements
 <br>
 
 The majority of BDI AOP libraries rely on specific runtimes, e.g. **JVM**, **Python interpreter**, ...
@@ -126,7 +129,7 @@ from **web** to **wearable**-oriented applications
 
 ---
 
-# 4. Concurrency model
+## 4. Concurrency model
 <br>
 
 Current BDI AOP languages offer limited configuration over the **execution** of an agent system.
@@ -148,11 +151,10 @@ Internal DSL implemented in Kotlin
 * Good ergonomy
 
 <br>
-<br>
 
 {{% fragment %}}
 
-{{< figure src="images/qr-code.svg" width="20%" >}}
+{{< figure src="images/qr-code.svg" width="15%" >}}
 [github.com/jakta-bdi/jakta-examples](https://github.com/jakta-bdi/jakta-examples)
 
 {{% /fragment %}}
