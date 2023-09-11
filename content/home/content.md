@@ -34,7 +34,7 @@ We identified 4 possible reasons
 
 {{< multicol >}}{{< col >}}
 
-<h4> AOP Libraries </h4>
+<h4> Libraries </h4>
 <br>
 
 <div>
@@ -97,20 +97,20 @@ due to the custom syntax
 
 {{% multicol %}}{{% col %}}
 
-<h4> AOP Libraries </h4>
+<h4> Libraries </h4>
 <br>
 
-* rely on existing **development tools**
-* can be integrated with existing **libraries**
+* Rely on existing **development tools**
+* Can be integrated with existing **libraries**
 
 {{% /col %}}{{% col %}}
 
 <h4> Custom Languages </h4>
 <br>
 
-* require **novel tooling**
+* Require **novel tooling**
     * and related **maintenance**
-* require **novel libraries** or **explicit bridges** to other ecosystems
+* Require **novel libraries** or **explicit bridges** to other ecosystems
 
 {{< /col >}}{{< /multicol >}}
 
@@ -119,24 +119,21 @@ due to the custom syntax
 ## 3. Middleware/Runtime requirements
 <br>
 
-The majority of BDI AOP libraries rely on specific runtimes, e.g. **JVM**, **Python interpreter**, ...
+* BDI AOP libraries rely on specific runtimes
+    * e.g. **JVM**, **Python interpreter**, ...
 
-<br> 
-
-But BDI AOP systems could be designed to run on a large variety of devices, 
-<br>
-from **web** to **wearable**-oriented applications 
+* But systems could be designed to run on a large variety of devices, 
+    * from **web** to **wearable**-oriented applications 
 
 ---
 
 ## 4. Concurrency model
 <br>
 
-Current BDI AOP languages offer limited configuration over the **execution** of an agent system.
-
-<br>
-
-We believe that a BDI model definition should be completely agnostic of the underlying concurrency model, which should be **pluggable**.
+* Limited configuration over the system **execution**
+    * impact the system design
+* BDI model definition should be completely agnostic<br>of the underlying concurrency model
+    * Which should be **pluggable**.
 
 ---
 
@@ -147,7 +144,7 @@ Internal DSL implemented in Kotlin
 
 * Native tools maintained by the community
 * Multi-paradigm support
-* Gentler learning curve, leveraging a mainstream language
+* Gentle learning curve, leveraging a mainstream language
 * Good ergonomy
 
 <br>

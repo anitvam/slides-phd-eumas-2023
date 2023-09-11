@@ -5,7 +5,11 @@ outputs = ["Reveal"]
 +++
 
 
-# A step forward to widespread BDI AOP: JaKtA
+# A step forward<br>to widespread BDI AOP: JaKtA
 <br>
 
-~ Martina Baiardi ~
+Martina Baiardi
+
+<small>Department of Computer Science and Engineering (DISI)<br>
+Alma Mater Studiorum — Università di Bologna <br>
+Via dell’Università 50, 47522 Cesena (FC), Italy </small>
