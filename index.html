@@ -10,7 +10,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><link rel="stylesheet" href="/slides-phd-eumas-2023/reveal-js/dist/reset.css">
 <link rel="stylesheet" href="/slides-phd-eumas-2023/reveal-js/dist/reveal.css">
-  <link rel="stylesheet" href="/slides-phd-eumas-2023/css/custom-theme.min.2068db0a910a762d09771a997498305ae40ccf0e4e6661af0522630517f6f9b2.css" id="theme"><link rel="stylesheet" href="/slides-phd-eumas-2023/highlight-js/solarized-dark.min.css">
+  <link rel="stylesheet" href="/slides-phd-eumas-2023/css/custom-theme.min.936d5feae3cc8c26c35e1894e2aebc7ab18acf6927a11b55452c18c25fa3d713.css" id="theme"><link rel="stylesheet" href="/slides-phd-eumas-2023/highlight-js/solarized-dark.min.css">
 <link rel="stylesheet" href="https://gitcdn.link/repo/DanySK/css-blur-animation/master/blur.css">
 <link href='https://fonts.googleapis.com/css?family=Roboto Mono' rel='stylesheet'>
 <link href='https://fonts.googleapis.com/css?family=Oxygen Mono' rel='stylesheet'>
@@ -25,9 +25,12 @@
       <div class="slides">
   
 
-    <section><h1 id="a-step-forward-to-widespread-bdi-aop-jakta">A step forward to widespread BDI AOP: JaKtA</h1>
+    <section><h1 id="a-step-forwardbrto-widespread-bdi-aop-jakta">A step forward<br>to widespread BDI AOP: JaKtA</h1>
 <br>
-<p>~ Martina Baiardi ~</p>
+<p>Martina Baiardi</p>
+<p><small>Department of Computer Science and Engineering (DISI)<br>
+Alma Mater Studiorum — Università di Bologna <br>
+Via dell’Università 50, 47522 Cesena (FC), Italy </small></p>
 </section>
 
   
@@ -66,7 +69,7 @@
 <div class='row text-center '>
 <div class='col text-center '>
 
-<h4> AOP Libraries </h4>
+<h4> Libraries </h4>
 <br>
 
 <div>
@@ -143,39 +146,57 @@ due to the custom syntax</p>
 
 
 <div class="container w-100 m-0 p-0">
-<div class='row text-center '><div class='col text-center '><h4> AOP Libraries </h4>
+<div class='row text-center '><div class='col text-center '><h4> Libraries </h4>
 <br>
 <ul>
-<li>rely on existing <strong>development tools</strong></li>
-<li>can be integrated with existing <strong>libraries</strong></li>
+<li>Rely on existing <strong>development tools</strong></li>
+<li>Can be integrated with existing <strong>libraries</strong></li>
 </ul>
 </div>
 <div class='col text-center '><h4> Custom Languages </h4>
 <br>
 <ul>
-<li>require <strong>novel tooling</strong>
+<li>Require <strong>novel tooling</strong>
 <ul>
 <li>and related <strong>maintenance</strong></li>
 </ul>
 </li>
-<li>require <strong>novel libraries</strong> or <strong>explicit bridges</strong> to other ecosystems</li>
+<li>Require <strong>novel libraries</strong> or <strong>explicit bridges</strong> to other ecosystems</li>
 </ul>
 </div></div>
 </div>
 </section><section>
 <h2 id="3-middlewareruntime-requirements">3. Middleware/Runtime requirements</h2>
 <br>
-<p>The majority of BDI AOP libraries rely on specific runtimes, e.g. <strong>JVM</strong>, <strong>Python interpreter</strong>, &hellip;</p>
-<br> 
-<p>But BDI AOP systems could be designed to run on a large variety of devices,
-<br>
-from <strong>web</strong> to <strong>wearable</strong>-oriented applications</p>
+<ul>
+<li>
+<p>BDI AOP libraries rely on specific runtimes</p>
+<ul>
+<li>e.g. <strong>JVM</strong>, <strong>Python interpreter</strong>, &hellip;</li>
+</ul>
+</li>
+<li>
+<p>But systems could be designed to run on a large variety of devices,</p>
+<ul>
+<li>from <strong>web</strong> to <strong>wearable</strong>-oriented applications</li>
+</ul>
+</li>
+</ul>
 </section><section>
 <h2 id="4-concurrency-model">4. Concurrency model</h2>
 <br>
-<p>Current BDI AOP languages offer limited configuration over the <strong>execution</strong> of an agent system.</p>
-<br>
-<p>We believe that a BDI model definition should be completely agnostic of the underlying concurrency model, which should be <strong>pluggable</strong>.</p>
+<ul>
+<li>Limited configuration over the system <strong>execution</strong>
+<ul>
+<li>impact the system design</li>
+</ul>
+</li>
+<li>BDI model definition should be completely agnostic<br>of the underlying concurrency model
+<ul>
+<li>Which should be <strong>pluggable</strong>.</li>
+</ul>
+</li>
+</ul>
 </section><section>
 <h1 id="jakta">Jakta</h1>
 <h2 id="ujauson-like-ukuoutulin-uaugents"><u>Ja</u>son-like <u>K</u>o<u>t</u>lin <u>A</u>gents</h2>
@@ -183,7 +204,7 @@ from <strong>web</strong> to <strong>wearable</strong>-oriented applications</p>
 <ul>
 <li>Native tools maintained by the community</li>
 <li>Multi-paradigm support</li>
-<li>Gentler learning curve, leveraging a mainstream language</li>
+<li>Gentle learning curve, leveraging a mainstream language</li>
 <li>Good ergonomy</li>
 </ul>
 <br>
