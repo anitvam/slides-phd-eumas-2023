@@ -4,3 +4,5 @@ _gen/
 *.pdf
 *.hprof
 *build.lock
+presentation.md
+
